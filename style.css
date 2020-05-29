@@ -1,0 +1,365 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+*{
+    font-family: IRANSans;
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/IRANSansWeb.eot');
+    src: url('fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/IRANSansWeb.ttf') format('truetype');
+}
+.main-box {
+    border: 1px solid #e75e0ec7;
+    width: 50px;
+    height: 274px;
+    margin-top: 50px;
+    border-radius: 21px;
+    color: #fafafa;
+    background: #e76112;
+}
+
+.lab-text-name {
+    font-size: 19px;
+    margin-top: 10px;
+}
+.text-box-name {
+    border: 2px dotted #152b97;
+    width: 292px;
+    height: 33px;
+    border-radius: 20px;
+    padding-right: -1px;
+    margin-left: 88px;
+    background: #39219d;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 2px;
+    text-align: center;
+}
+.lab-text {
+    float: right;
+    font-size: 19px;
+    margin-right: 306px;
+    margin-top: 3px;
+    font-weight: 600px;
+}
+.text-box {
+    border: 2px dotted #152b97;
+    width: 292px;
+    height: 33px;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin-left: 83px;
+    background: #39219d;
+    font-size: 19px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 11px;
+}
+.welcome {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: #ab0060;
+}
+.border{
+    margin-left: 64px !important;
+}
+.sib,.anar,.orange,.ezhdeha,.khiar,.toot,.holo,.porteghal,.shatoot,.blue{
+    border: 1px solid #ab0060 !important;
+    width: 100px !important;
+}
+.btn {
+    margin-bottom: 8px !important;
+}
+.border-anar {
+     margin-top: 50px;
+    border: 1px solid #e93a12;
+    /* width: 302px !important; */
+    border-radius: 10px;
+}
+.btn-ersal {
+    float: right;
+    border: 1px dotted #152b97;
+    margin-top: 10px;
+    padding-right: 9px;
+    color: #ffffff;
+    background: #39219d;
+    font-size: 15px;
+    border-radius: 12px;
+    margin-right: 25px;
+    margin-top: 18px;
+    width: 58px;
+}
+.sub-btn {
+    border: 1px solid #ab0060;
+    width: 116px;
+    border-radius: 5px;
+    height: 35px;
+    background: #fff;
+}
+.border-apple {
+    margin-top: 51px;
+    border: 1px solid #e93a12;
+    border-radius: 10px;
+    margin-left: 116px;
+}
+.border-orange{
+    margin-top: 37px;
+    margin-left: 100px;
+    border: 1px solid #e93a12;
+    border-radius: 10px;
+}
+.form-numbers {
+    margin-left: 38px;
+    margin-top: 20px;
+}
+.numbers{
+    margin-left: 300px;
+}
+.number,.price,.info{
+    border: 2px solid #dd1373;
+    margin-left: 420px;
+}
+.pricee {
+    margin-left: 343px;
+}
+.infoo{
+    margin-left: 345px;
+}
+p {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #ab0060;
+}
+.track-code {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 21px;
+    color: #ab0060;
+}
+.order {
+    margin-left: 469px;
+    color: #000;
+    background: #fff;
+    border: 2px solid #dd1373;
+    margin-top: 25px;
+}
+.massage-text{
+    margin-left: 174px;
+    font-size: 20px;
+    color: #ab0060;
+}
+.orders-txt {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #131315;
+    border: 7px solid #ab0060;
+    margin-left: -32px;
+}
+.fruites-img {
+    width: 259px;
+    height: 230px;
+    margin-top: 142px;
+    border-radius: 20px;
+    margin-left: -453px;
+}
+.finall-img {
+    margin-left: 216px;
+    margin-top: 50px;
+    width: 203px;
+}
+/*admin-style*/
+.bg-color {
+    background-color: #c48c8c;
+    margin-top: 8px;
+    height: auto ;
+}
+a{
+    color:#fff !important;
+}
+.admin-pic {
+    margin-left: 38px;
+    border-radius: 100px;
+    border: 2px solid #ab0060;
+    margin-top: -43px;
+    width: 50px;
+}
+.wellcome-admin {
+    margin: 0 0 19px !important;
+    text-align: center;
+    font-size: 19px;
+    color: #ab0060;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.li-propertise {
+    border: 1px solid #ab0600;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: justify;
+    padding-left: 3px;
+    background-color: #be457c;
+    color: #fff;
+    border-radius: 5px;
+}
+/*insert-product-styles*/
+.insert-product {
+    font-size: 20px;
+    color:#4b112e;
+    margin-top: 36px;
+    text-align: center;
+}
+.lable{
+    color: #65112e !important;
+}
+.btn{
+    text-align: center !important;
+    margin-left: 28px !important;
+    color: #4b112e !important;
+}
+.record {
+    margin-top: 100px;
+    font-size: 26px;
+    border: 1px solid #ab0060;
+    width: 273px;
+    margin-left: 100px;
+    height: 100px;
+    line-height: 93px;
+    text-align: center;
+    background: pink;
+    border-radius: 15px;
+}
+.record-link{
+    margin-left: -78px;
+}
+.back {
+    color: #be457c !important;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 168px;
+}
+/*view-product-styles*/
+.view-style{
+    margin-top: 30px;
+    color: #ab0060;
+    font-size: 18px;
+    border: 1px solid #ab0060;
+    text-align: center;
+    background: pink;
+}
+.view {
+    color: #5112f6 !important;
+}
+.back-view {
+    margin-left: 168px !important;
+    margin-top: 30px !important;
+    font-size: 15px !important;
+    background:#fff !important;
+    color: #ab0060 !important;
+}
+/*register-styles*/
+.register-forms {
+    margin-top: 100px;
+    border: 8px solid #ff843a;
+    text-align: center;
+    background: #c48c8c;
+}
+.text-form{
+    margin-right: 270px;
+    color: #ab0060;
+}
+.password{
+    margin-right: 289px;
+    color: #ab0060;
+}
+.registerbtn{
+    margin-top: 21px;
+    margin-bottom: 10px;
+    color: #ffff;
+    background: #ab0060;;
+}
+.place-bg-color{
+    background: #ab0060;
+    margin-left: 41px;
+}
+.shakehand{
+    margin-left:74px;
+}
+.register-login{
+    background: #ab0060;
+    margin-left: 50px;
+    color:#fff;
+}
+
+/*edit-page*/
+.edit-box{
+    text-align: center;
+    margin-top: 100px;
+   
+    border: 1px solid #ab0060;
+    width: 352px !important;
+    margin-left: 100px;
+    height: 100px;
+    line-height: 93px;
+    text-align: center;
+    background: pink;
+    border-radius: 15px;
+}
+    
+.edit-text{
+    font-size: 25px;
+}
+.edit-back{
+    color: #be457c !important;
+    text-decoration: none;
+    font-size:15px;
+    margin-left: -20px;
+}
+/*remove-user*/
+.remove-user-btn{
+    margin-left: 241px !important;
+    background: #ffc0cb !important;
+    color: #ab0060 !important;
+}
+.link{
+    padding: 20px;
+    margin-left: -103px;
+}
+
+/*login-style*/
+.login{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.login-forms {
+    margin-top: 44px;
+    border: 8px solid #ff843a;
+    text-align: center;
+    background: #c48c8c;
+}
